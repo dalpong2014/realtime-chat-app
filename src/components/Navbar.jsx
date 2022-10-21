@@ -9,7 +9,7 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <span className="logo">Lema Chat</span>
+      <span className="logo">chat ! </span>
       <div className="user">
         <img src={currentUser.photoURL} alt="" />
         <span>{currentUser.displayName}</span>
